@@ -1,0 +1,46 @@
+{
+  "name": "code-copy-cat",
+  "version": "1.0.0",
+  "description": "A React and Next js component library to display code snippets with syntax highlighting and copy functionality.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx rollup -c"
+  },
+  "keywords": [
+    "code",
+    "copy",
+    "snippet",
+    "syntax-highlighting",
+    "react",
+    "typescript"
+  ],
+  "author": "Kamlesh Sahani",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.3.3",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "rollup": "^4.18.1",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kamlesh-Sahani/code-copy-cat.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/kamlesh-Sahani/code-copy-cat.git/issues"
+  },
+  "homepage": "https://github.com/kamlesh-Sahani/code-copy-cat.git/#readme",
+  "dependencies": {
+    "react-syntax-highlighter": "^15.5.0"
+  }
+}

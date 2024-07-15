@@ -1,0 +1,38 @@
+.code-block-css-container{
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.code-block-css-container .code-block-css-title{
+    height:60px;
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.code-block-css-container .code-block-css-title p{
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+.code-block-css-container .code-block-css-title button{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: sans-serif;
+    outline:none;
+    border: none;
+
+}
+.code-block-css-container .code-block-css-code{
+    border-radius: 0 0 4px 4px;
+    width: 100%;
+    margin-top: -14px;
+    height: 100%;
+}
