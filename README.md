@@ -2,6 +2,8 @@
 
 `code-copy-cat` is a React component library that allows you to display code snippets with syntax highlighting and copy functionality. It supports various themes for syntax highlighting and provides an easy-to-use interface for copying code.
 
+![Review](images/code-copy-cat.png)
+
 ## Installation
 
 You can install the package via npm:
@@ -16,9 +18,7 @@ Below is an example of how to use the `CodeCopyCat` component in your React proj
 
 ```jsx
 import React from "react";
-import CodeCopyCat from "code-copy-cat";
-import "code-copy-cat/dist/codeCopyCat.css";
-
+import {CodeCopyCat} from "code-copy-cat"
 const App = () => {
   return (
     <div>
@@ -68,9 +68,7 @@ The following themes are supported for syntax highlighting:
 
 ```jsx
 import  React from "react";
-import CodeCopyCat from "code-copy-cat";
-import "code-copy-cat/dist/codeCopyCat.css";
-
+import {CodeCopyCat} from "code-copy-cat"
 const codeSnippet = `
   // Example code
   const greet = () => console.log('Hello, World!');
