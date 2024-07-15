@@ -93,4 +93,4 @@ const CodeCopyCat = (props: PropsType) => {
   );
 };
 
-export default CodeCopyCat;
+export {CodeCopyCat};
