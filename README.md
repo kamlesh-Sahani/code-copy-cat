@@ -47,7 +47,7 @@ The `CodeCopyCat` component accepts the following props:
 | Prop Name  | Type      | Default    | Description                                                  |
 |------------|-----------|------------|--------------------------------------------------------------|
 | `language` | `string`  | `"HTML"`   | The programming language of the code snippet.                |
-| `code`     | `any`     | Example    | The code snippet to be displayed.                            |
+| `code`     | `/``/`     | Example    | The code snippet to be displayed (its should be in `/' // code '/`).                            |
 | `theme`    | `string`  | `"nightOwl"` | The theme for syntax highlighting. Supports multiple themes. |
 | `isCopy`   | `boolean` | `true`     | Enable or disable the copy button.                           |
 | `isHead`   | `boolean` | `true`     | Show or hide the header containing the language and copy button. |
