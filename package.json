@@ -1,6 +1,6 @@
 {
   "name": "code-copy-cat",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A React and Next js component library to display code snippets with syntax highlighting and copy functionality.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
