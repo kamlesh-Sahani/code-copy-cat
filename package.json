@@ -16,7 +16,7 @@
     "react",
     "typescript"
   ],
-  "author": "Kamlesh Sahani",
+  "author": "Kamlesh Sahani <<kamleshbca2005@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-babel": "^6.0.4",
