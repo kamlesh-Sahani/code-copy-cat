@@ -1,13 +1,13 @@
+
 # code-copy-cat
 
-`code-copy-cat` is a React component library that allows you to display code snippets with syntax highlighting and copy functionality. It supports various themes for syntax highlighting and provides an easy-to-use interface for copying code.
-
+`code-copy-cat` is a versatile React component library designed for displaying code snippets with syntax highlighting and copy-to-clipboard functionality. It supports various themes for syntax highlighting and provides an intuitive interface for copying code snippets effortlessly.
 
 ![code-copy-cat](https://github.com/user-attachments/assets/b9011cd7-aad7-48eb-aa0b-28e59f74d960)
 
 ## Installation
 
-You can install the package via npm:
+Install the package via npm:
 
 ```bash
 npm install code-copy-cat
@@ -15,11 +15,12 @@ npm install code-copy-cat
 
 ## Usage
 
-Below is an example of how to use the `CodeCopyCat` component in your React project:
+To use the `CodeCopyCat` component in your React project, follow the example below:
 
 ```jsx
 import React from "react";
-import {CodeCopyCat} from "code-copy-cat"
+import { CodeCopyCat } from "code-copy-cat";
+
 const App = () => {
   return (
     <div>
@@ -45,14 +46,14 @@ export default App;
 
 The `CodeCopyCat` component accepts the following props:
 
-| Prop Name  | Type      | Default    | Description                                                  |
-|------------|-----------|------------|--------------------------------------------------------------|
-| `language` | `string`  | `"HTML"`   | The programming language of the code snippet.                |
-| `code`     | `/``/`     | Example    | The code snippet to be displayed (its should be in back tick).                            |
+| Prop Name  | Type      | Default      | Description                                                  |
+|------------|-----------|--------------|--------------------------------------------------------------|
+| `language` | `string`  | `"HTML"`     | The programming language of the code snippet.                |
+| `code`     | ``string``| `""`         | The code snippet to be displayed.                            |
 | `theme`    | `string`  | `"nightOwl"` | The theme for syntax highlighting. Supports multiple themes. |
-| `isCopy`   | `boolean` | `true`     | Enable or disable the copy button.                           |
-| `isHead`   | `boolean` | `true`     | Show or hide the header containing the language and copy button. |
-| `wrapLines`| `boolean` | `true`     | Enable or disable wrapping of long lines.                    |
+| `isCopy`   | `boolean` | `true`       | Enable or disable the copy button.                           |
+| `isHead`   | `boolean` | `true`       | Show or hide the header containing the language and copy button. |
+| `wrapLines`| `boolean` | `true`       | Enable or disable wrapping of long lines.                    |
 
 ## Themes
 
@@ -67,12 +68,15 @@ The following themes are supported for syntax highlighting:
 
 ## Example
 
+Another usage example with a predefined code snippet:
+
 ```jsx
-import  React from "react";
-import {CodeCopyCat} from "code-copy-cat"
+import React from "react";
+import { CodeCopyCat } from "code-copy-cat";
+
 const codeSnippet = `
-  // Example code
-  const greet = () => console.log('Hello, World!');
+// Example code
+const greet = () => console.log('Hello, World!');
 `;
 
 const App = () => {
@@ -106,7 +110,7 @@ npm run build
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue on GitHub.
+Contributions are welcome! Please submit a pull request or open an issue on GitHub.
 
 ## License
 
@@ -115,6 +119,10 @@ This project is licensed under the MIT License.
 ## Author
 
 Kamlesh Sahani
+
+## Email
+
+kamleshbca2005@gmail.com
 
 ## Repository
 
@@ -126,7 +134,6 @@ If you find any bugs, please report them at the [Issues Page](https://github.com
 
 ## Homepage
 
-Visit the [Homepage](https://github.com/kamlesh-Sahani/code-copy-cat#readme) for more information.
+For more information, visit the [Homepage](https://github.com/kamlesh-Sahani/code-copy-cat#readme).
 
-
-In this example, the `CodeCopyCat` component is wrapped in a `div` with a specified `width` and `height` to adjust its size. You can modify the `width` and `height` values as needed.
+In this example, the `CodeCopyCat` component is wrapped in a `div` with specified `width` and `height` to adjust its size. You can modify the `width` and `height` values as needed.
